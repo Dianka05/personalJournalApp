@@ -1,0 +1,28 @@
+{
+  "name": "realizace-backendu-diana-stoyka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnicornUniversity/realizace-backendu-diana-stoyka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnicornUniversity/realizace-backendu-diana-stoyka/issues"
+  },
+  "homepage": "https://github.com/UnicornUniversity/realizace-backendu-diana-stoyka#readme",
+  "description": "",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

@@ -1,0 +1,86 @@
+.note-preview-container {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: var(--background-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.note-preview-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.note-preview-content {
+  padding: 1rem;
+  height: 120px;
+  overflow: hidden;
+  font-size: 0.9rem;
+  background-color: #FFF3E0;
+}
+
+.note-preview-title-container {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid var(--light-gray);
+  display: flex;
+  flex-direction: column;
+}
+
+.note-preview-title-container span:last-child {
+    font-weight: 600;
+}
+
+.note-preview-date {
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 0.25rem;
+}
+
+.note-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 4rem);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.note-form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 1rem;
+}
+
+.note-title-input, .note-content {
+  border: none;
+  outline: none;
+  background-color: var(--light-gray);
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  width: 100%;
+}
+
+.note-title-input {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.note-content {
+  flex-grow: 1;
+  resize: none;
+  line-height: 1.7;
+}
+
+.note-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  flex-wrap: wrap;
+}

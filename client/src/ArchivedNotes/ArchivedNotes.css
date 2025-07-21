@@ -1,0 +1,18 @@
+.archived-notes-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.notes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.archived-note-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
